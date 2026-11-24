@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BusPay Mobile</title>
     <link rel="manifest" href="manifest.json">
+    <script src="upi-helper.js" defer></script>
 </head>
 <body>
     <h1>BusPay Fare Scanner</h1>
     <div id="scanner">Scanner UI placeholder</div>
     <div id="pass">Dynamic Boarding Pass placeholder</div>
+
+    <div id="upi-payment">
+        <div id="qr-code"></div>
+        <button id="pay-btn" onclick="initiatePayment('singhayush8054@okaxis')">Pay Now</button>
+    </div>
 </body>
 </html>
