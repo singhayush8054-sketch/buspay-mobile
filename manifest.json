@@ -1,0 +1,7 @@
+{
+  "name": "BusPay",
+  "short_name": "BusPay",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff"
+}
